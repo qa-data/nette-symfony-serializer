@@ -1,0 +1,19 @@
+{
+    "name": "qa-data/nette-symfony-serializer",
+    "description": "Symfony serialize integration into Nette",
+    "type": "library",
+    "require": {
+        "symfony/serializer": "^6.4",
+        "symfony/property-info": "^6.4",
+        "symfony/property-access": "^6.4",
+		"doctrine/annotations": "^2.0"
+	},
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "QaData\\NetteSymfonySerializer\\": "src/"
+        }
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
